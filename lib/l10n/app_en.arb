@@ -1,0 +1,59 @@
+{
+  "@@locale": "en",
+  "appTitle": "AcriFeed",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  "dashboard": "Dashboard",
+  "charts": "Charts",
+  "history": "History",
+  "assistant": "Assistant",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "temperature": "Temperature",
+  "humidity": "Humidity",
+  "foodLevel": "Food Level",
+  "waterLevel": "Water Level",
+  "activity": "Activity",
+  "liveSensors": "Live Sensors",
+  "smartAlerts": "Smart Alerts",
+  "feedingControl": "Feeding & Hydration Control",
+  "noAlerts": "No alerts",
+  "clearAlerts": "Clear Alerts",
+  "lastUpdate": "Last Update",
+  "captureAnalyze": "Capture & Analyze",
+  "scheduleName": "Schedule Name",
+  "feedingTime": "Feeding Time",
+  "foodQuantity": "Food Quantity",
+  "scheduleActive": "Schedule Active",
+  "schedulePaused": "Schedule Paused",
+  "createSchedule": "Create Schedule",
+  "updateSchedule": "Update Schedule",
+  "hydrationCycle": "Hydration Cycle",
+  "paused": "Paused",
+  "nextSpray": "Next spray at {time}",
+  "@nextSpray": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "volume": "Volume",
+  "changeTime": "Change Time",
+  "noFeedingSchedule": "No feeding schedule yet",
+  "tapToCreate": "Tap + to create automated feeding cycles.",
+  "condition": "Condition",
+  "normal": "Normal",
+  "hungry": "Hungry",
+  "stressed": "Stressed",
+  "confidence": "Confidence",
+  "recommendedAction": "Recommended Action",
+  "noAction": "No action",
+  "language": "Language",
+  "english": "English",
+  "french": "Français",
+  "arabic": "العربية"
+}
+

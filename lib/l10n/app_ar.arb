@@ -1,0 +1,56 @@
+{
+  "@@locale": "ar",
+  "appTitle": "AcriFeed",
+  "dashboard": "لوحة التحكم",
+  "charts": "الرسوم البيانية",
+  "history": "السجل",
+  "assistant": "المساعد",
+  "login": "تسجيل الدخول",
+  "username": "اسم المستخدم",
+  "password": "كلمة المرور",
+  "temperature": "درجة الحرارة",
+  "humidity": "الرطوبة",
+  "foodLevel": "مستوى الطعام",
+  "waterLevel": "مستوى الماء",
+  "activity": "النشاط",
+  "liveSensors": "أجهزة الاستشعار المباشرة",
+  "smartAlerts": "التنبيهات الذكية",
+  "feedingControl": "التحكم في التغذية والترطيب",
+  "noAlerts": "لا توجد تنبيهات",
+  "clearAlerts": "مسح التنبيهات",
+  "lastUpdate": "آخر تحديث",
+  "captureAnalyze": "التقاط وتحليل",
+  "scheduleName": "اسم الجدول",
+  "feedingTime": "وقت التغذية",
+  "foodQuantity": "كمية الطعام",
+  "scheduleActive": "الجدول نشط",
+  "schedulePaused": "الجدول متوقف",
+  "createSchedule": "إنشاء جدول",
+  "updateSchedule": "تحديث الجدول",
+  "hydrationCycle": "دورة الترطيب",
+  "paused": "متوقف",
+  "nextSpray": "الرش التالي في {time}",
+  "@nextSpray": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "volume": "الحجم",
+  "changeTime": "تغيير الوقت",
+  "noFeedingSchedule": "لا يوجد جدول تغذية بعد",
+  "tapToCreate": "اضغط + لإنشاء دورات تغذية تلقائية.",
+  "condition": "الحالة",
+  "normal": "عادي",
+  "hungry": "جائع",
+  "stressed": "متوتر",
+  "confidence": "الثقة",
+  "recommendedAction": "الإجراء الموصى به",
+  "noAction": "لا يوجد إجراء",
+  "language": "اللغة",
+  "english": "English",
+  "french": "Français",
+  "arabic": "العربية"
+}
+

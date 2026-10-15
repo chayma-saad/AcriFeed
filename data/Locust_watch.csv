@@ -1,0 +1,168 @@
+Locust & Control columns,Description,Value
+STARTDATE,start date,DD/MM/YYYY 
+TmSTARTDAT,start time,HH:MM:SS 
+FINISHDATE,end date,DD/MM/YYYY 
+TmFINISHDA,end time,HH:MM:SS 
+EXACTDATE,date is exact,"yes, no"
+PARTMONTH,part of month,"early, middle, late"
+LOCNAME,location name,text
+AREAHA,surveyed area,numeric
+LOCRELIAB,location reliability,"exact, approx"
+COUNTRYID,country code,2-character 
+LOCUSTID,record ID,numeric
+REPORTID,report ID,text
+ACOMMENT,comments,text
+LOCPRESENT,locust presence,"present (1), absent (2)"
+SPECIESQRY,species query? ,"no (0), yes (1)"
+CONFIRMATN,confirmed?,"yes (1), no (2)"
+BREEDING,breeding? ,"yes (1), no (2)"
+REPRELIAB,report reliability,"dubious (0), reliable (1)"
+SHPMINDSQM,solitary hopper minimum density/m2,numeric
+SHPMAXDSQM,solitary hopper maximum density/m2,numeric
+SHPMINDSIT,solitary hopper minimum density/site,numeric
+SHPMAXDSIT,solitary hopper maximum density/site,numeric
+SHPDENISOL,solitary hopper density = isolated,"no (0), yes (1)"
+SHPDENSCAT,solitary hopper density = scattered,"no (0), yes (1)"
+SHPDENGRP,solitary hopper density = group,"no (0), yes (1)"
+SHPDENUNK,solitary hopper density = unknown,"no (0), yes (1)"
+SHPSC,,
+SHPSCCAT,solitary hopper site count category,"no (-1), yes (1)"
+SHPMATEGG,solitary hopper maturity = egg,"no (0), yes (1)"
+SHPMATHAT,solitary hopper maturity = hatching,"no (0), yes (1)"
+SHPMATINS1,solitary hopper maturity = 1st instar,"no (0), yes (1)"
+SHPMATINS2,solitary hopper maturity = 2nd instar,"no (0), yes (1)"
+SHPMATINS3,solitary hopper maturity = 3rd instar,"no (0), yes (1)"
+SHPMATINS4,solitary hopper maturity = 4th instar,"no (0), yes (1)"
+SHPMATINS5,solitary hopper maturity = 5th instar,"no (0), yes (1)"
+SHPMATINS6,solitary hopper maturity = 6th instar,"no (0), yes (1)"
+SHPMATFLED,solitary hopper maturity = fledgling,"no (0), yes (1)"
+SHPMATUNK,solitary hopper maturity = unknown,"no (0), yes (1)"
+SHPCOLGN,solitary hopper colour = green,"no (0), yes (1)"
+SHPCOLGNYL,solitary hopper colour = green yellow,"no (0), yes (1)"
+SHPCOLGNBK,solitary hopper colour = green black,"no (0), yes (1)"
+SHPCOLYLBK,solitary hopper colour = yellow black,"no (0), yes (1)"
+SHPCOLBK,solitary hopper colour = black,"no (0), yes (1)"
+SHPAPPSOL,solitary hopper appearance = solitarious,"no (0), yes (1)"
+SHPAPPTRAN,solitary hopper appearance = transiens,"no (0), yes (1)"
+SHPAPPGREG,solitary hopper appearance = gregarious,"no (0), yes (1)"
+SHPAPPUNK,solitary hopper appearance = unknown,"no (0), yes (1)"
+GHPMINDSQM,gregarious hopper minimum density/m2,numeric
+GHPMAXDSQM,gregarious hopper maximum density/m2,numeric
+GHPMINDSIT,gregarious hopper minimum density/site,numeric
+GHPMAXDSIT,gregarious hopper maximum density/site,numeric
+GHPDENLOW,gregarious hopper density = low,"no (0), yes (1)"
+GHPDENMED,gregarious hopper density = medium,"no (0), yes (1)"
+GHPDENHI,gregarious hopper density = high,"no (0), yes (1)"
+GHPDENUNK,gregarious hopper density = unknown,"no (0), yes (1)"
+GHPSC,,
+GHPSCCAT,gregarious hopper site count category,"no (-1), yes (1)"
+GHPMATEGG,gregarious hopper maturity = egg,"no (0), yes (1)"
+GHPMATHAT,gregarious hopper maturity = hatching,"no (0), yes (1)"
+GHPMATINS1,gregarious hopper maturity = 1st instar,"no (0), yes (1)"
+GHPMATINS2,gregarious hopper maturity = 2nd instar,"no (0), yes (1)"
+GHPMATINS3,gregarious hopper maturity = 3rd instar,"no (0), yes (1)"
+GHPMATINS4,gregarious hopper maturity = 4th instar,"no (0), yes (1)"
+GHPMATINS5,gregarious hopper maturity = 5th instar,"no (0), yes (1)"
+GHPMATINS6,gregarious hopper maturity = 6th instar,"no (0), yes (1)"
+GHPMATFLED,gregarious hopper maturity = fledgling,"no (0), yes (1)"
+GHPMATUNK,gregarious hopper maturity = unknown,"no (0), yes (1)"
+GHPCOLGN,gregarious hopper colour = green,"no (0), yes (1)"
+GHPCOLYLBK,gregarious hopper colour = yellow black,"no (0), yes (1)"
+GHPCOLBK,gregarious hopper colour = black,"no (0), yes (1)"
+GHPMINAHA,gregarious hopper minimum area (ha),numeric
+GHPMAXAHA,gregarious hopper maximum area (ha),numeric
+GHPARVSML,gregarioius hopper area = very small,"no (0), yes (1)"
+GHPARSML,gregarioius hopper area =  small,"no (0), yes (1)"
+GHPARMED,gregarioius hopper area = medium,"no (0), yes (1)"
+GHPARLGE,gregarioius hopper area = large,"no (0), yes (1)"
+GHPARVLGE,gregarioius hopper area = very large,"no (0), yes (1)"
+GHPARUNK,gregarioius hopper area = unknown,"no (0), yes (1)"
+SADMINDHA,solitary adult minimum density/ha,numeric
+SADMAXDHA,solitary adult maximum density/ha,numeric
+SADDENISOL,solitary adult density = isolated,"no (0), yes (1)"
+SADDENSCAT,solitary adult density = scatterred,"no (0), yes (1)"
+SADDENGRP,solitary adult density = group,"no (0), yes (1)"
+SADDENUNK,solitary adult density = unknown,"no (0), yes (1)"
+SADSC,,
+SADSCCAT,solitarious adult site count category,"no (-1), yes (1)"
+SADMATIMMA,solitarious adult maturity = immature,"no (0), yes (1)"
+SADMATMATG,solitarious adult maturity = maturing,"no (0), yes (1)"
+SADMATMAT,solitarious adult maturity = mature,"no (0), yes (1)"
+SADMATCOP,solitarious adult maturity = copulating,"no (0), yes (1)"
+SADMATLAY,solitarious adult maturity = laying,"no (0), yes (1)"
+SADMATUNK,solitarious adult maturity = unknown,"no (0), yes (1)"
+SADCOLGN,solitarious adult colour = green,"no (0), yes (1)"
+SADCOLYLWG,solitarious adult colour = yellow wing,"no (0), yes (1)"
+SADCOLRD,solitarious adult colour = red,"no (0), yes (1)"
+SADCOLBN,solitarious adult colour = brown,"no (0), yes (1)"
+SADCOLGY,solitarious adult colour = gray,"no (0), yes (1)"
+SADAPPSOL,solitarious adult appearance = solitary,"no (0), yes (1)"
+SADAPPTRAN,solitarious adult appearance = transiens,"no (0), yes (1)"
+SADAPPGREG,solitarious adult appearance = gregarious,"no (0), yes (1)"
+SADAPPUNK,solitarious adult appearance = unknown,"no (0), yes (1)"
+GADMINDHA,gregarious adult minimum density/ha,numeric
+GADMAXDHA,gregarious adult maximum density/ha,numeric
+GADDENLOW,gregarious adult density = low,"no (0), yes (1)"
+GADDENMED,gregarious adult density = medium,"no (0), yes (1)"
+GADDENHI,gregarious adult density = high,"no (0), yes (1)"
+GADDENUNK,gregarious adult density = unknown,"no (0), yes (1)"
+GADSC,,
+GADSCCAT,gregarious adult site count category,"no (-1), yes (1)"
+GADMATIMMA,gregarious adult maturity = immature,"no (0), yes (1)"
+GADMATMATG,gregarious adult maturity = maturing,"no (0), yes (1)"
+GADMATMAT,gregarious adult maturity = mature,"no (0), yes (1)"
+GADMATCOP,gregarious adult maturity = copulating,"no (0), yes (1)"
+GADMATLAY,gregarious adult maturity = laying,"no (0), yes (1)"
+GADMATUNK,gregarious adult maturity = unknown,"no (0), yes (1)"
+GADCOLYL,gregarious adult colour = yellow,"no (0), yes (1)"
+GADCOLRD,gregarious adult colour = red,"no (0), yes (1)"
+GADMINASKM,gregarious adult minimum area (km2),numeric
+GADMAXASKM,gregarious adult maximum area (km2),numeric
+GADARVSML,gregarioius adult area = very small,"no (0), yes (1)"
+GADARSML,gregarioius adult area =  small,"no (0), yes (1)"
+GADARMED,gregarioius adult area = medium,"no (0), yes (1)"
+GADARLGE,gregarioius adult area = large,"no (0), yes (1)"
+GADARVLGE,gregarioius adult area = very large,"no (0), yes (1)"
+GADARUNK,gregarioius adult area = unknown,"no (0), yes (1)"
+GADFLYFROM,gregarious adults flying from,N NE E SE S SW W NW
+GADFLYTO,gregarious adults flying to,N NE E SE S SW W NW
+GADHTLOW,gregarious adults flying height = low,"no (0), yes (1)"
+GADHTMED,gregarious adults flying height = medium,"no (0), yes (1)"
+GADHTHI,gregarious adults flying height = high,"no (0), yes (1)"
+GADHTUNK,gregarious adults flying height = unknown,"no (0), yes (1)"
+CTLSTDATE,control start date,DD/MM/YYYY 
+CTLFNDATE,control finish date,DD/MM/YYYY 
+CTLEXACT,control date is exact,"yes, no"
+CTLPTMONTH,control part of month,"early, middle, late"
+CTLPESTIC,control pesticide name,text
+CTLAPPRAT,control application rate,numeric
+CTLAPPRATU,control application rate units,"g/ha, l/ha"
+CTLQTY,control quantity,numeric
+CTLQTYU,control quantity units,"G, L"
+CTLARTREA,controla area treated,numeric
+CTLARTREAU,controla area treated units,ha
+CTLAPPHAND,control application = handheld,"no (0), yes (1)"
+CTLAPPVEHI,control application = vehicle,"no (0), yes (1)"
+CTLAPPAIR,control application = air,"no (0), yes (1)"
+CTLAPPMECH,control application = mechanical,"no (0), yes (1)"
+CTLAPPUNK,control application = unknown,"no (0), yes (1)"
+CTLESTKILL,estimate control kill (mortality),numeric
+Ecology columns,Description,Value
+STARTDATE,start date,DD/MM/YYYY 
+TmSTARTDAT,start time,HH:MM:SS 
+FINISHDATE,end date,DD/MM/YYYY 
+TmFINISHDA,end time,HH:MM:SS 
+EXACTDATE,date is exact,"yes, no"
+PARTMONTH,part of month,"early, middle, late"
+LOCNAME,location name,text
+AREAHA,surveyed area,numeric
+LOCRELIAB,location reliability,"exact, approx"
+COUNTRYID,country code,2-character 
+ECOLOGYID,ecology record ID,numeric
+REPORTID,report ID,text
+NATVEGCAT,natural vegetation category,"greening, green, drying, dry"
+NATVEGDEN,natural vegetation density,"sparse, moderate, dense"
+CULTVEGCAT,cultivated vegetation category,"greening, green, drying, dry"
+SOILMOIST,soil moisture,"dry, wet"
+IRRIGATION,irrigation,unknown
+MORSPECIES,more species,unknown

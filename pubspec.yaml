@@ -1,0 +1,51 @@
+name: acrifeed
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.6
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+  connectivity_plus: ^5.0.1
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  sqflite: ^2.3.0
+  shared_preferences: ^2.1.1
+  http: ^1.1.0
+  csv: ^6.0.0
+  # Hardware & ML
+  flutter_blue_plus: ^1.30.0
+  # REMOVED: tflite_flutter_helper
+  # JSON serialization
+  json_annotation: ^4.8.1
+  cupertino_icons: ^1.0.8
+  mysql1: ^0.20.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_local_notifications: ^19.0.0
+  video_player: ^2.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.1
+
+flutter:
+  assets:
+    - assets/models/
+    - data/
+    - lib/cameras/Locust farming.mp4
+    - lib/cameras/A Million Locusts Farm, The Scene Is So Stunning!.mp4
+    - lib/cameras/locust farms, how to raise locusts#shorts.mp4
+    - lib/cameras/Locusts devour rice paddy crop in Uttarakhand, India.mp4
+  uses-material-design: true
+  generate: true

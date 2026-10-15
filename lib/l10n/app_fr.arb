@@ -1,0 +1,56 @@
+{
+  "@@locale": "fr",
+  "appTitle": "AcriFeed",
+  "dashboard": "Tableau de bord",
+  "charts": "Graphiques",
+  "history": "Historique",
+  "assistant": "Assistant",
+  "login": "Connexion",
+  "username": "Nom d'utilisateur",
+  "password": "Mot de passe",
+  "temperature": "Température",
+  "humidity": "Humidité",
+  "foodLevel": "Niveau de nourriture",
+  "waterLevel": "Niveau d'eau",
+  "activity": "Activité",
+  "liveSensors": "Capteurs en direct",
+  "smartAlerts": "Alertes intelligentes",
+  "feedingControl": "Contrôle d'alimentation et d'hydratation",
+  "noAlerts": "Aucune alerte",
+  "clearAlerts": "Effacer les alertes",
+  "lastUpdate": "Dernière mise à jour",
+  "captureAnalyze": "Capturer et analyser",
+  "scheduleName": "Nom du planning",
+  "feedingTime": "Heure d'alimentation",
+  "foodQuantity": "Quantité de nourriture",
+  "scheduleActive": "Planning actif",
+  "schedulePaused": "Planning en pause",
+  "createSchedule": "Créer un planning",
+  "updateSchedule": "Mettre à jour le planning",
+  "hydrationCycle": "Cycle d'hydratation",
+  "paused": "En pause",
+  "nextSpray": "Prochaine pulvérisation à {time}",
+  "@nextSpray": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "volume": "Volume",
+  "changeTime": "Changer l'heure",
+  "noFeedingSchedule": "Aucun planning d'alimentation",
+  "tapToCreate": "Appuyez sur + pour créer des cycles d'alimentation automatisés.",
+  "condition": "Condition",
+  "normal": "Normal",
+  "hungry": "Affamé",
+  "stressed": "Stressé",
+  "confidence": "Confiance",
+  "recommendedAction": "Action recommandée",
+  "noAction": "Aucune action",
+  "language": "Langue",
+  "english": "English",
+  "french": "Français",
+  "arabic": "العربية"
+}
+
