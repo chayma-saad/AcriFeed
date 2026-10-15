@@ -1,5 +1,5 @@
 name: acrifeed
-description: "A new Flutter project."
+description: "AcriFeed - smart locust farm monitoring app (sensors, ML condition prediction, swarm data dashboards)."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -41,7 +41,6 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/models/
     - data/
     - lib/cameras/Locust farming.mp4
     - lib/cameras/A Million Locusts Farm, The Scene Is So Stunning!.mp4
