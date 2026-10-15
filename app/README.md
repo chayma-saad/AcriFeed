@@ -6,10 +6,11 @@ A comprehensive monitoring application for locust farm management with AI-powere
 
 ```
 app/
-├── frontend/          # Flutter application
 ├── backend/           # .NET Web API
 └── database/          # SQL scripts and schema
 ```
+
+The Flutter application lives at the **repository root** (one level above `app/`).
 
 ## Features
 
@@ -39,7 +40,7 @@ app/
 3. Run `dotnet run`
 
 ### Frontend Setup
-1. Navigate to `frontend/` folder
+1. Go to the repository root (one level above `app/`)
 2. Run `flutter pub get`
 3. Run `flutter run`
 
@@ -61,7 +62,7 @@ app/
 
 1. **Setup Database**: Run `database/schema.sql` in XAMPP MySQL
 2. **Start Backend**: `cd backend/LocustMonitoring.API && dotnet run`
-3. **Start Frontend**: `cd frontend && flutter run`
+3. **Start Frontend**: `cd .. && flutter run` (from `app/`)
 4. **Login**: Use `admin` / `admin123`
 
 See `SETUP.md` for detailed instructions.
