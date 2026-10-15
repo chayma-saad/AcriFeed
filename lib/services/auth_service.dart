@@ -9,6 +9,12 @@ class AuthService extends ChangeNotifier {
   String? _role;
   final ApiService _apiService = ApiService();
 
+  /// Demo mode is enabled at build time with `--dart-define=DEMO_MODE=true`.
+  /// It is used for the public GitHub Pages demo, where the .NET API and the
+  /// MySQL database are not available: the default account (admin / admin123)
+  /// signs in locally instead of calling the backend.
+  static const bool demoMode = bool.fromEnvironment('DEMO_MODE');
+
   bool get isAuthenticated => _token != null && _token!.isNotEmpty;
   String? get username => _username;
   String? get fullName => _fullName;
@@ -16,7 +22,9 @@ class AuthService extends ChangeNotifier {
 
   Future<bool> login(String username, String password) async {
     try {
-      final response = await _apiService.login(username, password);
+      final response = demoMode
+          ? _demoLogin(username, password)
+          : await _apiService.login(username, password);
       
       _token = response['token'];
       _username = response['username'];
@@ -40,6 +48,18 @@ class AuthService extends ChangeNotifier {
       }
       return false;
     }
+  }
+
+  Map<String, dynamic> _demoLogin(String username, String password) {
+    if (username != 'admin' || password != 'admin123') {
+      throw Exception('Invalid demo credentials');
+    }
+    return {
+      'token': 'demo-token',
+      'username': 'admin',
+      'fullName': 'Demo Admin',
+      'role': 'admin',
+    };
   }
 
   Future<void> logout() async {
