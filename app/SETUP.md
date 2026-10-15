@@ -54,9 +54,9 @@ The API will be available at `http://localhost:5000` (or the port shown in the c
 
 ## Frontend Setup (Flutter)
 
-1. Navigate to the frontend directory:
+1. Go to the repository root, where the Flutter app lives (one level above `app/`):
 ```bash
-cd frontend
+cd ..
 ```
 
 2. Get Flutter dependencies:
@@ -64,7 +64,7 @@ cd frontend
 flutter pub get
 ```
 
-3. Update API base URL in `lib/services/api_service.dart`:
+3. Update API base URL in `lib/config/api_config.dart` (or pass `--dart-define=API_URL=...`):
    - For Android Emulator: Use `http://10.0.2.2:5000/api`
    - For iOS Simulator: Use `http://localhost:5000/api`
    - For Physical Device: Use your computer's IP address (e.g., `http://192.168.1.100:5000/api`)
