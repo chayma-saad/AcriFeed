@@ -1,11 +1,14 @@
 # 🦗 AcriFeed — Smart Locust Farm Monitoring
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-chayma--saad.github.io-16a34a?style=for-the-badge&logo=githubpages&logoColor=white)](https://chayma-saad.github.io/AcriFeed/)
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20video-ec4899?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/chayma-saad/AcriFeed/raw/main/final_acrifeed.webm)
 [![Flutter](https://img.shields.io/badge/Flutter-3.29-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 AcriFeed is a cross-platform app for **monitoring locust farms**. It combines live sensor readings (temperature, humidity, feeding), camera feeds, a machine-learning model that predicts the colony's condition (*normal*, *hungry* or *stressed*), smart alerts and an AI assistant — in **English, French and Arabic**.
 
+> 🎬 **Watch the demo video:** https://github.com/chayma-saad/AcriFeed/raw/main/final_acrifeed.webm
+>
 > 🌐 **Try it live:** https://chayma-saad.github.io/AcriFeed/ — log in with **admin / admin123**.
 > The web demo runs in *demo mode*: no server is needed. Features that rely on the backend (database history, ML predictions, chatbot) work in the full local setup below.
 
