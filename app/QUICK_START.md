@@ -20,7 +20,7 @@ dotnet run --project backend\LocustMonitoring.API\LocustMonitoring.API.csproj
 
 ### Option 1: Using Command Line
 ```powershell
-cd frontend
+cd ..   # the Flutter app is at the repository root
 flutter run
 ```
 
@@ -28,7 +28,7 @@ Then select your device (Chrome, Windows, etc.)
 
 ### Option 2: Specify Device Directly
 ```powershell
-cd frontend
+cd ..   # the Flutter app is at the repository root
 flutter run -d chrome
 ```
 
