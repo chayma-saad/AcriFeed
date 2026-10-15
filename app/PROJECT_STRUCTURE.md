@@ -38,7 +38,7 @@ app/
 │       ├── appsettings.json      # Configuration
 │       └── LocustMonitoring.API.csproj
 │
-├── frontend/
+├── (Flutter app — at the repository root, ../lib/)
 │   └── lib/
 │       ├── main.dart             # App Entry Point
 │       ├── screens/              # UI Screens
