@@ -58,10 +58,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
     try {
       // Try different video formats for better browser compatibility
       List<String> videoPaths = [
-        'lib/cameras/Locust farming.mp4',
-        'lib/cameras/A Million Locusts Farm, The Scene Is So Stunning!.mp4',
-        'lib/cameras/locust farms, how to raise locusts#shorts.mp4',
-        'lib/cameras/Locusts devour rice paddy crop in Uttarakhand, India.mp4',
+        'data/Locust_Feeding.mp4',
       ];
 
       for (String assetPath in videoPaths) {
