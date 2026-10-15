@@ -23,24 +23,9 @@ class _CameraHistoryScreenState extends State<CameraHistoryScreen> {
   // Static list of camera videos (in a real app, this would come from an API)
   final List<Map<String, String>> _cameraVideos = [
     {
-      'path': 'lib/cameras/Locust farming.mp4',
-      'title': 'Locust Farming',
-      'description': 'Daily farming operations and locust monitoring'
-    },
-    {
-      'path': 'lib/cameras/A Million Locusts Farm, The Scene Is So Stunning!.mp4',
-      'title': 'Large Scale Farming',
-      'description': 'Impressive view of extensive locust farming operations'
-    },
-    {
-      'path': 'lib/cameras/locust farms, how to raise locusts#shorts.mp4',
-      'title': 'Farming Techniques',
-      'description': 'Essential techniques for successful locust farming'
-    },
-    {
-      'path': 'lib/cameras/Locusts devour rice paddy crop in Uttarakhand, India.mp4',
-      'title': 'Rice Paddy Monitoring',
-      'description': 'Monitoring locust activity in rice paddies'
+      'path': 'data/Locust_Feeding.mp4',
+      'title': 'Feeding Station',
+      'description': 'Camera recording of the locust feeding station'
     },
   ];
 
